@@ -10,6 +10,8 @@ import Foundation
 
 protocol Monster {
     
+    var name:String{ get set };
+    
     func addBehavior(behavior : Behavior)
     func exerciseBehavior(behavior : Behavior)
     func exerciseBehavior(behavior : Behavior, when : BehaviorExecutionEnum)

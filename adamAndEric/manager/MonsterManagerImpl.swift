@@ -10,10 +10,17 @@ import Foundation
 
 class MonsterManagerImpl : MonsterManager {
     
+    fileprivate var monsters : NSMutableSet = [];
+    
     func addMonster(monster : Monster){
-        
+        monsters.add(monster);
     }
+    
     func removeMonster(monster : Monster){
-        
+        monsters.remove(monster);
+    }
+    
+    func getAllMonsters() -> NSMutableSet {
+        return monsters;
     }
 }

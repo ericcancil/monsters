@@ -11,6 +11,8 @@ import Foundation
 class MonsterImpl : Monster{
     
     
+    var name: String = "";
+    
     func addBehavior(behavior : Behavior){
         
     }

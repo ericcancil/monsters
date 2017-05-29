@@ -12,5 +12,6 @@ protocol MonsterManager {
     
     func addMonster(monster : Monster)
     func removeMonster(monster : Monster)
+    func getAllMonsters() -> NSMutableSet
     
 }

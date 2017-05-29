@@ -2,12 +2,11 @@
 # platform :ios, '9.0'
 
 target 'iOS' do
-  pod 'Dip', '~> 5.1'
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+ use_frameworks!
 
   # Pods for iOS
-
+  pod 'Dip', '~> 5.1'
 end
 
 target 'macOS' do

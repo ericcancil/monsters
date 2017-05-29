@@ -39,6 +39,12 @@
 		304C8DDF1EDCAE3800DC5B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D8B1EDCAE3800DC5B95 /* Assets.xcassets */; };
 		304C8DE01EDCAE3800DC5B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D8B1EDCAE3800DC5B95 /* Assets.xcassets */; };
 		304C8DE11EDCAE3800DC5B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D8B1EDCAE3800DC5B95 /* Assets.xcassets */; };
+		304C8DF81EDCB40E00DC5B95 /* MonsterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8DF71EDCB40E00DC5B95 /* MonsterManager.swift */; };
+		304C8DFB1EDCB43500DC5B95 /* MonsterManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8DFA1EDCB43500DC5B95 /* MonsterManagerImpl.swift */; };
+		304C8DFE1EDCB48000DC5B95 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8DFD1EDCB48000DC5B95 /* Monster.swift */; };
+		304C8E001EDCB49800DC5B95 /* MonsterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8DFF1EDCB49800DC5B95 /* MonsterImpl.swift */; };
+		304C8E031EDCB52600DC5B95 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8E021EDCB52600DC5B95 /* Behavior.swift */; };
+		304C8E061EDCB58E00DC5B95 /* BehaviorExecutionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8E051EDCB58E00DC5B95 /* BehaviorExecutionEnum.swift */; };
 		44C8BE2722F805CDF74DFAFA /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB869B9CFCBCCFA1C83B8875 /* Pods_iOS.framework */; };
 		AEB1B44D8E436FABABDE6D54 /* Pods_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F50FF38062C17FA4C262AB /* Pods_macOS.framework */; };
 		CA175FABE536FD210FF2CEAA /* Pods_watchOS_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1049ACAE2FC5AD600C563F05 /* Pods_watchOS_Extension.framework */; };
@@ -118,6 +124,12 @@
 		304C8DCD1EDCAE3800DC5B95 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		304C8DD01EDCAE3800DC5B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		304C8DD21EDCAE3800DC5B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304C8DF71EDCB40E00DC5B95 /* MonsterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterManager.swift; sourceTree = "<group>"; };
+		304C8DFA1EDCB43500DC5B95 /* MonsterManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterManagerImpl.swift; sourceTree = "<group>"; };
+		304C8DFD1EDCB48000DC5B95 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		304C8DFF1EDCB49800DC5B95 /* MonsterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImpl.swift; sourceTree = "<group>"; };
+		304C8E021EDCB52600DC5B95 /* Behavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Behavior.swift; sourceTree = "<group>"; };
+		304C8E051EDCB58E00DC5B95 /* BehaviorExecutionEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehaviorExecutionEnum.swift; sourceTree = "<group>"; };
 		47F50FF38062C17FA4C262AB /* Pods_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA250C392520216DB035431 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		56F2383B2E2D307DADE0B87F /* Pods-watchOS Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchOS Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-watchOS Extension/Pods-watchOS Extension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,6 +207,7 @@
 		304C8D821EDCAE3800DC5B95 = {
 			isa = PBXGroup;
 			children = (
+				304C8DF51EDCB34E00DC5B95 /* adamAndEric */,
 				304C8D871EDCAE3800DC5B95 /* Shared */,
 				304C8D921EDCAE3800DC5B95 /* iOS */,
 				304C8DA41EDCAE3800DC5B95 /* watchOS App */,
@@ -281,6 +294,51 @@
 				304C8DD21EDCAE3800DC5B95 /* Info.plist */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		304C8DF51EDCB34E00DC5B95 /* adamAndEric */ = {
+			isa = PBXGroup;
+			children = (
+				304C8E041EDCB56C00DC5B95 /* enum */,
+				304C8E011EDCB4E600DC5B95 /* factory */,
+				304C8DFC1EDCB46600DC5B95 /* vo */,
+				304C8DF61EDCB35A00DC5B95 /* manager */,
+			);
+			path = adamAndEric;
+			sourceTree = "<group>";
+		};
+		304C8DF61EDCB35A00DC5B95 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				304C8DF71EDCB40E00DC5B95 /* MonsterManager.swift */,
+				304C8DFA1EDCB43500DC5B95 /* MonsterManagerImpl.swift */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		304C8DFC1EDCB46600DC5B95 /* vo */ = {
+			isa = PBXGroup;
+			children = (
+				304C8DFD1EDCB48000DC5B95 /* Monster.swift */,
+				304C8DFF1EDCB49800DC5B95 /* MonsterImpl.swift */,
+				304C8E021EDCB52600DC5B95 /* Behavior.swift */,
+			);
+			path = vo;
+			sourceTree = "<group>";
+		};
+		304C8E011EDCB4E600DC5B95 /* factory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
+		304C8E041EDCB56C00DC5B95 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				304C8E051EDCB58E00DC5B95 /* BehaviorExecutionEnum.swift */,
+			);
+			path = enum;
 			sourceTree = "<group>";
 		};
 		9640B1D0FDEAEA31788D5773 /* Frameworks */ = {
@@ -727,7 +785,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				304C8DDA1EDCAE3800DC5B95 /* GameScene.swift in Sources */,
+				304C8E031EDCB52600DC5B95 /* Behavior.swift in Sources */,
+				304C8E061EDCB58E00DC5B95 /* BehaviorExecutionEnum.swift in Sources */,
+				304C8E001EDCB49800DC5B95 /* MonsterImpl.swift in Sources */,
 				304C8D961EDCAE3800DC5B95 /* GameViewController.swift in Sources */,
+				304C8DF81EDCB40E00DC5B95 /* MonsterManager.swift in Sources */,
+				304C8DFB1EDCB43500DC5B95 /* MonsterManagerImpl.swift in Sources */,
+				304C8DFE1EDCB48000DC5B95 /* Monster.swift in Sources */,
 				304C8D941EDCAE3800DC5B95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1094,6 +1158,7 @@
 				304C8DE61EDCAE3800DC5B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		304C8DE81EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "watchOS App" */ = {
 			isa = XCConfigurationList;
@@ -1102,6 +1167,7 @@
 				304C8DEA1EDCAE3800DC5B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		304C8DEC1EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
@@ -1110,6 +1176,7 @@
 				304C8DEE1EDCAE3800DC5B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		304C8DEF1EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1118,6 +1185,7 @@
 				304C8DF11EDCAE3800DC5B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		304C8DF21EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
@@ -1126,6 +1194,7 @@
 				304C8DF41EDCAE3800DC5B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

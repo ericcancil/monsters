@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		304C8D941EDCAE3800DC5B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8D931EDCAE3800DC5B95 /* AppDelegate.swift */; };
+		304C8D961EDCAE3800DC5B95 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8D951EDCAE3800DC5B95 /* GameViewController.swift */; };
+		304C8D991EDCAE3800DC5B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D971EDCAE3800DC5B95 /* Main.storyboard */; };
+		304C8D9C1EDCAE3800DC5B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D9A1EDCAE3800DC5B95 /* LaunchScreen.storyboard */; };
+		304C8DA11EDCAE3800DC5B95 /* Monsters.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 304C8DA01EDCAE3800DC5B95 /* Monsters.app */; };
+		304C8DA71EDCAE3800DC5B95 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304C8DA51EDCAE3800DC5B95 /* Interface.storyboard */; };
+		304C8DAE1EDCAE3800DC5B95 /* Monsters Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 304C8DAD1EDCAE3800DC5B95 /* Monsters Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		304C8DB31EDCAE3800DC5B95 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8DB21EDCAE3800DC5B95 /* InterfaceController.swift */; };
+		304C8DB51EDCAE3800DC5B95 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8DB41EDCAE3800DC5B95 /* ExtensionDelegate.swift */; };
+		304C8DBE1EDCAE3800DC5B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8DBD1EDCAE3800DC5B95 /* AppDelegate.swift */; };
+		304C8DC01EDCAE3800DC5B95 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8DBF1EDCAE3800DC5B95 /* GameViewController.swift */; };
+		304C8DC31EDCAE3800DC5B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304C8DC11EDCAE3800DC5B95 /* Main.storyboard */; };
+		304C8DCC1EDCAE3800DC5B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8DCB1EDCAE3800DC5B95 /* AppDelegate.swift */; };
+		304C8DCE1EDCAE3800DC5B95 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8DCD1EDCAE3800DC5B95 /* GameViewController.swift */; };
+		304C8DD11EDCAE3800DC5B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304C8DCF1EDCAE3800DC5B95 /* Main.storyboard */; };
+		304C8DD31EDCAE3800DC5B95 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D881EDCAE3800DC5B95 /* Actions.sks */; };
+		304C8DD41EDCAE3800DC5B95 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D881EDCAE3800DC5B95 /* Actions.sks */; };
+		304C8DD51EDCAE3800DC5B95 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D881EDCAE3800DC5B95 /* Actions.sks */; };
+		304C8DD61EDCAE3800DC5B95 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D891EDCAE3800DC5B95 /* GameScene.sks */; };
+		304C8DD71EDCAE3800DC5B95 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D891EDCAE3800DC5B95 /* GameScene.sks */; };
+		304C8DD81EDCAE3800DC5B95 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D891EDCAE3800DC5B95 /* GameScene.sks */; };
+		304C8DD91EDCAE3800DC5B95 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D891EDCAE3800DC5B95 /* GameScene.sks */; };
+		304C8DDA1EDCAE3800DC5B95 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8D8A1EDCAE3800DC5B95 /* GameScene.swift */; };
+		304C8DDB1EDCAE3800DC5B95 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8D8A1EDCAE3800DC5B95 /* GameScene.swift */; };
+		304C8DDC1EDCAE3800DC5B95 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8D8A1EDCAE3800DC5B95 /* GameScene.swift */; };
+		304C8DDD1EDCAE3800DC5B95 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8D8A1EDCAE3800DC5B95 /* GameScene.swift */; };
+		304C8DDE1EDCAE3800DC5B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D8B1EDCAE3800DC5B95 /* Assets.xcassets */; };
+		304C8DDF1EDCAE3800DC5B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D8B1EDCAE3800DC5B95 /* Assets.xcassets */; };
+		304C8DE01EDCAE3800DC5B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D8B1EDCAE3800DC5B95 /* Assets.xcassets */; };
+		304C8DE11EDCAE3800DC5B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304C8D8B1EDCAE3800DC5B95 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		304C8DA21EDCAE3800DC5B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304C8D831EDCAE3800DC5B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 304C8D9F1EDCAE3800DC5B95;
+			remoteInfo = "watchOS App";
+		};
+		304C8DAF1EDCAE3800DC5B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304C8D831EDCAE3800DC5B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 304C8DAC1EDCAE3800DC5B95;
+			remoteInfo = "watchOS Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		304C8DE71EDCAE3800DC5B95 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				304C8DAE1EDCAE3800DC5B95 /* Monsters Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8DEB1EDCAE3800DC5B95 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				304C8DA11EDCAE3800DC5B95 /* Monsters.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		304C8D881EDCAE3800DC5B95 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		304C8D891EDCAE3800DC5B95 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		304C8D8A1EDCAE3800DC5B95 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		304C8D8B1EDCAE3800DC5B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		304C8D901EDCAE3800DC5B95 /* Monsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304C8D931EDCAE3800DC5B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		304C8D951EDCAE3800DC5B95 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		304C8D981EDCAE3800DC5B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		304C8D9B1EDCAE3800DC5B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		304C8D9D1EDCAE3800DC5B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304C8DA01EDCAE3800DC5B95 /* Monsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304C8DA61EDCAE3800DC5B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		304C8DA81EDCAE3800DC5B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304C8DAD1EDCAE3800DC5B95 /* Monsters Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Monsters Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		304C8DB21EDCAE3800DC5B95 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		304C8DB41EDCAE3800DC5B95 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		304C8DB61EDCAE3800DC5B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304C8DBB1EDCAE3800DC5B95 /* Monsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304C8DBD1EDCAE3800DC5B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		304C8DBF1EDCAE3800DC5B95 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		304C8DC21EDCAE3800DC5B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		304C8DC41EDCAE3800DC5B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304C8DC91EDCAE3800DC5B95 /* Monsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304C8DCB1EDCAE3800DC5B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		304C8DCD1EDCAE3800DC5B95 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		304C8DD01EDCAE3800DC5B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		304C8DD21EDCAE3800DC5B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		304C8D8D1EDCAE3800DC5B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8DAA1EDCAE3800DC5B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8DB81EDCAE3800DC5B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8DC61EDCAE3800DC5B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304C8D821EDCAE3800DC5B95 = {
+			isa = PBXGroup;
+			children = (
+				304C8D871EDCAE3800DC5B95 /* Shared */,
+				304C8D921EDCAE3800DC5B95 /* iOS */,
+				304C8DA41EDCAE3800DC5B95 /* watchOS App */,
+				304C8DB11EDCAE3800DC5B95 /* watchOS Extension */,
+				304C8DBC1EDCAE3800DC5B95 /* tvOS */,
+				304C8DCA1EDCAE3800DC5B95 /* macOS */,
+				304C8D911EDCAE3800DC5B95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		304C8D871EDCAE3800DC5B95 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				304C8D881EDCAE3800DC5B95 /* Actions.sks */,
+				304C8D891EDCAE3800DC5B95 /* GameScene.sks */,
+				304C8D8A1EDCAE3800DC5B95 /* GameScene.swift */,
+				304C8D8B1EDCAE3800DC5B95 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		304C8D911EDCAE3800DC5B95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				304C8D901EDCAE3800DC5B95 /* Monsters.app */,
+				304C8DA01EDCAE3800DC5B95 /* Monsters.app */,
+				304C8DAD1EDCAE3800DC5B95 /* Monsters Extension.appex */,
+				304C8DBB1EDCAE3800DC5B95 /* Monsters.app */,
+				304C8DC91EDCAE3800DC5B95 /* Monsters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		304C8D921EDCAE3800DC5B95 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				304C8D931EDCAE3800DC5B95 /* AppDelegate.swift */,
+				304C8D951EDCAE3800DC5B95 /* GameViewController.swift */,
+				304C8D971EDCAE3800DC5B95 /* Main.storyboard */,
+				304C8D9A1EDCAE3800DC5B95 /* LaunchScreen.storyboard */,
+				304C8D9D1EDCAE3800DC5B95 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		304C8DA41EDCAE3800DC5B95 /* watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				304C8DA51EDCAE3800DC5B95 /* Interface.storyboard */,
+				304C8DA81EDCAE3800DC5B95 /* Info.plist */,
+			);
+			path = "watchOS App";
+			sourceTree = "<group>";
+		};
+		304C8DB11EDCAE3800DC5B95 /* watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				304C8DB21EDCAE3800DC5B95 /* InterfaceController.swift */,
+				304C8DB41EDCAE3800DC5B95 /* ExtensionDelegate.swift */,
+				304C8DB61EDCAE3800DC5B95 /* Info.plist */,
+			);
+			path = "watchOS Extension";
+			sourceTree = "<group>";
+		};
+		304C8DBC1EDCAE3800DC5B95 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				304C8DBD1EDCAE3800DC5B95 /* AppDelegate.swift */,
+				304C8DBF1EDCAE3800DC5B95 /* GameViewController.swift */,
+				304C8DC11EDCAE3800DC5B95 /* Main.storyboard */,
+				304C8DC41EDCAE3800DC5B95 /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		304C8DCA1EDCAE3800DC5B95 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				304C8DCB1EDCAE3800DC5B95 /* AppDelegate.swift */,
+				304C8DCD1EDCAE3800DC5B95 /* GameViewController.swift */,
+				304C8DCF1EDCAE3800DC5B95 /* Main.storyboard */,
+				304C8DD21EDCAE3800DC5B95 /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		304C8D8F1EDCAE3800DC5B95 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304C8DEC1EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				304C8D8C1EDCAE3800DC5B95 /* Sources */,
+				304C8D8D1EDCAE3800DC5B95 /* Frameworks */,
+				304C8D8E1EDCAE3800DC5B95 /* Resources */,
+				304C8DEB1EDCAE3800DC5B95 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				304C8DA31EDCAE3800DC5B95 /* PBXTargetDependency */,
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = 304C8D901EDCAE3800DC5B95 /* Monsters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		304C8D9F1EDCAE3800DC5B95 /* watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304C8DE81EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "watchOS App" */;
+			buildPhases = (
+				304C8D9E1EDCAE3800DC5B95 /* Resources */,
+				304C8DE71EDCAE3800DC5B95 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				304C8DB01EDCAE3800DC5B95 /* PBXTargetDependency */,
+			);
+			name = "watchOS App";
+			productName = "watchOS App";
+			productReference = 304C8DA01EDCAE3800DC5B95 /* Monsters.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		304C8DAC1EDCAE3800DC5B95 /* watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304C8DE41EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "watchOS Extension" */;
+			buildPhases = (
+				304C8DA91EDCAE3800DC5B95 /* Sources */,
+				304C8DAA1EDCAE3800DC5B95 /* Frameworks */,
+				304C8DAB1EDCAE3800DC5B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS Extension";
+			productName = "watchOS Extension";
+			productReference = 304C8DAD1EDCAE3800DC5B95 /* Monsters Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		304C8DBA1EDCAE3800DC5B95 /* tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304C8DEF1EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "tvOS" */;
+			buildPhases = (
+				304C8DB71EDCAE3800DC5B95 /* Sources */,
+				304C8DB81EDCAE3800DC5B95 /* Frameworks */,
+				304C8DB91EDCAE3800DC5B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOS;
+			productName = tvOS;
+			productReference = 304C8DBB1EDCAE3800DC5B95 /* Monsters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		304C8DC81EDCAE3800DC5B95 /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304C8DF21EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				304C8DC51EDCAE3800DC5B95 /* Sources */,
+				304C8DC61EDCAE3800DC5B95 /* Frameworks */,
+				304C8DC71EDCAE3800DC5B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = macOS;
+			productReference = 304C8DC91EDCAE3800DC5B95 /* Monsters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		304C8D831EDCAE3800DC5B95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Eric Cancil";
+				TargetAttributes = {
+					304C8D8F1EDCAE3800DC5B95 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					304C8D9F1EDCAE3800DC5B95 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					304C8DAC1EDCAE3800DC5B95 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					304C8DBA1EDCAE3800DC5B95 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					304C8DC81EDCAE3800DC5B95 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 304C8D861EDCAE3800DC5B95 /* Build configuration list for PBXProject "Monsters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 304C8D821EDCAE3800DC5B95;
+			productRefGroup = 304C8D911EDCAE3800DC5B95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				304C8D8F1EDCAE3800DC5B95 /* iOS */,
+				304C8D9F1EDCAE3800DC5B95 /* watchOS App */,
+				304C8DAC1EDCAE3800DC5B95 /* watchOS Extension */,
+				304C8DBA1EDCAE3800DC5B95 /* tvOS */,
+				304C8DC81EDCAE3800DC5B95 /* macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		304C8D8E1EDCAE3800DC5B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304C8DD61EDCAE3800DC5B95 /* GameScene.sks in Resources */,
+				304C8D991EDCAE3800DC5B95 /* Main.storyboard in Resources */,
+				304C8DD31EDCAE3800DC5B95 /* Actions.sks in Resources */,
+				304C8D9C1EDCAE3800DC5B95 /* LaunchScreen.storyboard in Resources */,
+				304C8DDE1EDCAE3800DC5B95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8D9E1EDCAE3800DC5B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304C8DDF1EDCAE3800DC5B95 /* Assets.xcassets in Resources */,
+				304C8DA71EDCAE3800DC5B95 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8DAB1EDCAE3800DC5B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304C8DD71EDCAE3800DC5B95 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8DB91EDCAE3800DC5B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304C8DC31EDCAE3800DC5B95 /* Main.storyboard in Resources */,
+				304C8DD81EDCAE3800DC5B95 /* GameScene.sks in Resources */,
+				304C8DE01EDCAE3800DC5B95 /* Assets.xcassets in Resources */,
+				304C8DD41EDCAE3800DC5B95 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8DC71EDCAE3800DC5B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304C8DD11EDCAE3800DC5B95 /* Main.storyboard in Resources */,
+				304C8DD91EDCAE3800DC5B95 /* GameScene.sks in Resources */,
+				304C8DE11EDCAE3800DC5B95 /* Assets.xcassets in Resources */,
+				304C8DD51EDCAE3800DC5B95 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		304C8D8C1EDCAE3800DC5B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304C8DDA1EDCAE3800DC5B95 /* GameScene.swift in Sources */,
+				304C8D961EDCAE3800DC5B95 /* GameViewController.swift in Sources */,
+				304C8D941EDCAE3800DC5B95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8DA91EDCAE3800DC5B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304C8DDB1EDCAE3800DC5B95 /* GameScene.swift in Sources */,
+				304C8DB51EDCAE3800DC5B95 /* ExtensionDelegate.swift in Sources */,
+				304C8DB31EDCAE3800DC5B95 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8DB71EDCAE3800DC5B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304C8DDC1EDCAE3800DC5B95 /* GameScene.swift in Sources */,
+				304C8DC01EDCAE3800DC5B95 /* GameViewController.swift in Sources */,
+				304C8DBE1EDCAE3800DC5B95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304C8DC51EDCAE3800DC5B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304C8DDD1EDCAE3800DC5B95 /* GameScene.swift in Sources */,
+				304C8DCE1EDCAE3800DC5B95 /* GameViewController.swift in Sources */,
+				304C8DCC1EDCAE3800DC5B95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		304C8DA31EDCAE3800DC5B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 304C8D9F1EDCAE3800DC5B95 /* watchOS App */;
+			targetProxy = 304C8DA21EDCAE3800DC5B95 /* PBXContainerItemProxy */;
+		};
+		304C8DB01EDCAE3800DC5B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 304C8DAC1EDCAE3800DC5B95 /* watchOS Extension */;
+			targetProxy = 304C8DAF1EDCAE3800DC5B95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		304C8D971EDCAE3800DC5B95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304C8D981EDCAE3800DC5B95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		304C8D9A1EDCAE3800DC5B95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304C8D9B1EDCAE3800DC5B95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		304C8DA51EDCAE3800DC5B95 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304C8DA61EDCAE3800DC5B95 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		304C8DC11EDCAE3800DC5B95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304C8DC21EDCAE3800DC5B95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		304C8DCF1EDCAE3800DC5B95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304C8DD01EDCAE3800DC5B95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		304C8DE21EDCAE3800DC5B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		304C8DE31EDCAE3800DC5B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		304C8DE51EDCAE3800DC5B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamanderic.Monsters.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "Monsters Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		304C8DE61EDCAE3800DC5B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamanderic.Monsters.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "Monsters Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		304C8DE91EDCAE3800DC5B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Monsters_Extension;
+				INFOPLIST_FILE = "watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamanderic.Monsters.watchkitapp;
+				PRODUCT_NAME = Monsters;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		304C8DEA1EDCAE3800DC5B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Monsters_Extension;
+				INFOPLIST_FILE = "watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamanderic.Monsters.watchkitapp;
+				PRODUCT_NAME = Monsters;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		304C8DED1EDCAE3800DC5B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamanderic.Monsters;
+				PRODUCT_NAME = Monsters;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		304C8DEE1EDCAE3800DC5B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamanderic.Monsters;
+				PRODUCT_NAME = Monsters;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		304C8DF01EDCAE3800DC5B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamanderic.Monsters;
+				PRODUCT_NAME = Monsters;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		304C8DF11EDCAE3800DC5B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamanderic.Monsters;
+				PRODUCT_NAME = Monsters;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		304C8DF31EDCAE3800DC5B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamanderic.Monsters;
+				PRODUCT_NAME = Monsters;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		304C8DF41EDCAE3800DC5B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamanderic.Monsters;
+				PRODUCT_NAME = Monsters;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		304C8D861EDCAE3800DC5B95 /* Build configuration list for PBXProject "Monsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304C8DE21EDCAE3800DC5B95 /* Debug */,
+				304C8DE31EDCAE3800DC5B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		304C8DE41EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304C8DE51EDCAE3800DC5B95 /* Debug */,
+				304C8DE61EDCAE3800DC5B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		304C8DE81EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304C8DE91EDCAE3800DC5B95 /* Debug */,
+				304C8DEA1EDCAE3800DC5B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		304C8DEC1EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304C8DED1EDCAE3800DC5B95 /* Debug */,
+				304C8DEE1EDCAE3800DC5B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		304C8DEF1EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304C8DF01EDCAE3800DC5B95 /* Debug */,
+				304C8DF11EDCAE3800DC5B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		304C8DF21EDCAE3800DC5B95 /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304C8DF31EDCAE3800DC5B95 /* Debug */,
+				304C8DF41EDCAE3800DC5B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 304C8D831EDCAE3800DC5B95 /* Project object */;
+}

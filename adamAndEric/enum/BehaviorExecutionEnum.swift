@@ -11,4 +11,5 @@ import Foundation
 
 enum BehaviorExecutionEnum{
     case WallCollision
+    case MonsterCollision
 }

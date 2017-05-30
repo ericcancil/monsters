@@ -12,8 +12,7 @@ extension DependencyContainer{
     
     static func startup() -> DependencyContainer{
         return DependencyContainer{ container in
-            //container.register(.Singleton) { ServiceImp() as Service }
-            container.register(ComponentScope.singleton) { MonsterManagerImpl() as MonsterManager }
+            container.register(.singleton) { MonsterManagerImpl() as MonsterManager }
         }
     }
 }

@@ -21,6 +21,6 @@ struct GameManager{
         
         let allMonsters : NSMutableSet? = monsterManager?.getAllMonsters()
         
-        allMonsters?.map{print(($0 as! Monster).name)}
+        _ = allMonsters?.map{print(($0 as! Monster).name)}
     }
 }

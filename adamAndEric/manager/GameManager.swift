@@ -7,19 +7,26 @@
 //
 
 import Foundation
-import Dip
 
-struct GameManager{
+struct GameManager {
     
-    var _monsterManager = InjectedWeak<MonsterManager>()
-    fileprivate var monsterManager : MonsterManager? { return _monsterManager.value }
+    var shitFuck: String?
     
-    func setup(){
-        let monster : Monster = MonsterImpl()
+    let monsterManager: MonsterManager
+    let monsterFactory: MonsterFactory
+    
+    init(monsterManager: MonsterManager, monsterFactory: MonsterFactory) {
+        self.monsterManager = monsterManager
+        self.monsterFactory = monsterFactory
+    }
+    
+    func setup() {
         
-        monsterManager?.addMonster(monster: monster);
+        let monster : Monster = monsterFactory.createMonster(name: "DICKBAG")
         
-        let allMonsters : NSMutableSet? = monsterManager?.getAllMonsters()
+        monsterManager.addMonster(monster: monster);
+        
+        let allMonsters : NSMutableSet? = monsterManager.getAllMonsters()
         
         _ = allMonsters?.map{print(($0 as! Monster).name)}
     }

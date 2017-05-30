@@ -14,16 +14,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    
-    let gameManager = GameManager();
-    
-
+    var gameManager: GameManager!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        _ = DependencyContainer.startup();
         
-        gameManager.setup();
+        // Override point for customization after application launch.
+        
+        let container = DependencyContainer.startup()
+        
+        gameManager = try! container.resolve()
+        gameManager.setup()
+        
+        let firstFactory: MonsterFactory = try! container.resolve(tag: MonsterFactoryTags.firstFactory)
         
         return true
     }

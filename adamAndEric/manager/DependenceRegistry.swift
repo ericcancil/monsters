@@ -8,10 +8,46 @@
 
 import Dip
 
-extension DependencyContainer{
+// MOVE THIS
+
+protocol MonsterFactory {
     
-    static func startup() -> DependencyContainer{
-        return DependencyContainer{ container in
+    func createMonster(name: String) -> Monster
+}
+
+class MonsterFactoryImpl: MonsterFactory {
+    
+    let container: DependencyContainer
+    
+    init(container: DependencyContainer) {
+        self.container = container
+    }
+    
+    func createMonster(name: String) -> Monster {
+        return MonsterImpl( name: name, gameManager: try! container.resolve() )
+    }
+}
+
+// END MOVE THIS
+
+public enum MonsterFactoryTags: String, DependencyTagConvertible {
+    case firstFactory
+    case secondFactory
+}
+
+
+extension DependencyContainer {
+    
+    static func startup() -> DependencyContainer {
+        
+        return DependencyContainer { container in
+            
+            container.register(.singleton) { GameManager(monsterManager: $0, monsterFactory: $1) }
+            
+            container.register(.singleton) { MonsterFactoryImpl(container: container) as MonsterFactory }
+            
+            container.register(tag: MonsterFactoryTags.firstFactory) { MonsterFactoryImpl(container: container) as MonsterFactory }
+            
             container.register(.singleton) { MonsterManagerImpl() as MonsterManager }
         }
     }

@@ -8,14 +8,12 @@
 
 import Foundation
 
-final class MonsterImpl : Monster {
+class MonsterImpl : Monster {
     
-    let name: String
-    let gameManager: GameManager
+    var name :String = ""
     
-    init(name: String, gameManager: GameManager) {
-        self.name = name
-        self.gameManager = gameManager
+    init(){
+        
     }
     
     func addBehavior(behavior : Behavior){

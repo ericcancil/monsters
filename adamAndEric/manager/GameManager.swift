@@ -9,9 +9,7 @@
 import Foundation
 
 struct GameManager {
-    
-    var shitFuck: String?
-    
+        
     let monsterManager: MonsterManager
     let monsterFactory: MonsterFactory
     
@@ -22,7 +20,8 @@ struct GameManager {
     
     func setup() {
         
-        let monster : Monster = monsterFactory.createMonster(name: "DICKBAG")
+        var monster : Monster = monsterFactory.createMonster()
+        monster.name = "Sandwiches"
         
         monsterManager.addMonster(monster: monster);
         

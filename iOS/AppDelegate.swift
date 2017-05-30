@@ -25,7 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         gameManager = try! container.resolve()
         gameManager.setup()
         
-        let firstFactory: MonsterFactory = try! container.resolve(tag: MonsterFactoryTags.firstFactory)
         
         return true
     }

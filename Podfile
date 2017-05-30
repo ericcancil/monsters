@@ -7,6 +7,8 @@ target 'iOS' do
 
   # Pods for iOS
   pod 'Dip', '~> 5.1'
+  pod 'RxSwift',    '~> 3.0'
+  pod 'RxCocoa',    '~> 3.0'
 end
 
 target 'macOS' do

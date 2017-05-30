@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adamAndEric/manager/GameManager.swift"
-            timestampString = "517789299.768852"
+            timestampString = "517812306.944621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "setup()"
             landmarkType = "7">
             <Locations>
@@ -47,54 +47,6 @@
                   startingLineNumber = "24"
                   endingLineNumber = "24"
                   offsetFromSymbolStart = "22">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "adamAndEric/manager/DependenceRegistry.swift"
-            timestampString = "517793576.735647"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "startup()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static (extension in Monsters):Dip.DependencyContainer.(startup () -&gt; Dip.DependencyContainer).(closure #1)"
-                  moduleName = "Monsters"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ecancil/Documents/monsters/Monsters/adamAndEric/manager/DependenceRegistry.swift"
-                  timestampString = "517790250.047847"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static (extension in Monsters):Dip.DependencyContainer.(startup () -&gt; Dip.DependencyContainer).(closure #1).(closure #1)"
-                  moduleName = "Monsters"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ecancil/Documents/monsters/Monsters/adamAndEric/manager/DependenceRegistry.swift"
-                  timestampString = "517790250.050417"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "11">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -169,46 +121,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "adamAndEric/manager/DependenceRegistry.swift"
-            timestampString = "517794691.252146"
+            filePath = "Pods/Dip/Sources/RuntimeArguments.swift"
+            timestampString = "517794728.263403"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "startup()"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "register(_:type:tag:factory:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static (extension in Monsters):Dip.DependencyContainer.(startup () -&gt; Dip.DependencyContainer).(closure #1)"
-                  moduleName = "Monsters"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ecancil/Documents/monsters/Monsters/adamAndEric/manager/DependenceRegistry.swift"
-                  timestampString = "517795120.641555"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static (extension in Monsters):Dip.DependencyContainer.(startup () -&gt; Dip.DependencyContainer).(closure #1).(closure #1)"
-                  moduleName = "Monsters"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ecancil/Documents/monsters/Monsters/adamAndEric/manager/DependenceRegistry.swift"
-                  timestampString = "517795120.643609"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "11">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -217,13 +137,77 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/Dip/Sources/RuntimeArguments.swift"
-            timestampString = "517794728.263403"
+            filePath = "adamAndEric/manager/DependenceRegistry.swift"
+            timestampString = "517813648.052935"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "register(_:type:tag:factory:)"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "DependencyContainer"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adamAndEric/manager/GameManager.swift"
+            timestampString = "517814161.38563"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "setup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Monsters.GameManager.setup () -&gt; ()"
+                  moduleName = "Monsters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ecancil/Documents/monsters/Monsters/adamAndEric/manager/GameManager.swift"
+                  timestampString = "517813811.768736"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "635">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Monsters.GameManager.(setup () -&gt; ()).(closure #1)"
+                  moduleName = "Monsters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ecancil/Documents/monsters/Monsters/adamAndEric/manager/GameManager.swift"
+                  timestampString = "517813811.770918"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adamAndEric/manager/GameManager.swift"
+            timestampString = "517814151.745689"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "setup()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adamAndEric/manager/GameManager.swift"
-            timestampString = "517789299.768852"
+            timestampString = "517812306.944621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "setup()"
             landmarkType = "7">
             <Locations>

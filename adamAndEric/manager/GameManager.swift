@@ -9,9 +9,7 @@
 import Foundation
 
 struct GameManager {
-    
-    var shitFuck: String?
-    
+        
     let monsterManager: MonsterManager
     let monsterFactory: MonsterFactory
     

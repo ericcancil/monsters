@@ -50,6 +50,7 @@
 		304C8E0C1EDD317400DC5B95 /* ContainerAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8E0B1EDD317400DC5B95 /* ContainerAware.swift */; };
 		304C8E101EDD328200DC5B95 /* MonsterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8E0F1EDD328200DC5B95 /* MonsterFactory.swift */; };
 		304C8E121EDD329200DC5B95 /* MonsterFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C8E111EDD329200DC5B95 /* MonsterFactoryImpl.swift */; };
+		30FA41381EDE887200CAF854 /* StageEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA41371EDE887200CAF854 /* StageEmitter.swift */; };
 		44C8BE2722F805CDF74DFAFA /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB869B9CFCBCCFA1C83B8875 /* Pods_iOS.framework */; };
 		AEB1B44D8E436FABABDE6D54 /* Pods_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F50FF38062C17FA4C262AB /* Pods_macOS.framework */; };
 		CA175FABE536FD210FF2CEAA /* Pods_watchOS_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1049ACAE2FC5AD600C563F05 /* Pods_watchOS_Extension.framework */; };
@@ -140,6 +141,7 @@
 		304C8E0B1EDD317400DC5B95 /* ContainerAware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerAware.swift; sourceTree = "<group>"; };
 		304C8E0F1EDD328200DC5B95 /* MonsterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterFactory.swift; sourceTree = "<group>"; };
 		304C8E111EDD329200DC5B95 /* MonsterFactoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterFactoryImpl.swift; sourceTree = "<group>"; };
+		30FA41371EDE887200CAF854 /* StageEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StageEmitter.swift; path = ../StageEmitter.swift; sourceTree = "<group>"; };
 		47F50FF38062C17FA4C262AB /* Pods_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA250C392520216DB035431 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		56F2383B2E2D307DADE0B87F /* Pods-watchOS Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchOS Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-watchOS Extension/Pods-watchOS Extension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 		304C8DF61EDCB35A00DC5B95 /* manager */ = {
 			isa = PBXGroup;
 			children = (
+				30FA41371EDE887200CAF854 /* StageEmitter.swift */,
 				304C8DF71EDCB40E00DC5B95 /* MonsterManager.swift */,
 				304C8DFA1EDCB43500DC5B95 /* MonsterManagerImpl.swift */,
 				304C8E071EDCCD1100DC5B95 /* DependenceRegistry.swift */,
@@ -807,6 +810,7 @@
 				304C8E001EDCB49800DC5B95 /* MonsterImpl.swift in Sources */,
 				304C8D961EDCAE3800DC5B95 /* GameViewController.swift in Sources */,
 				304C8DF81EDCB40E00DC5B95 /* MonsterManager.swift in Sources */,
+				30FA41381EDE887200CAF854 /* StageEmitter.swift in Sources */,
 				304C8DFB1EDCB43500DC5B95 /* MonsterManagerImpl.swift in Sources */,
 				304C8E101EDD328200DC5B95 /* MonsterFactory.swift in Sources */,
 				304C8DFE1EDCB48000DC5B95 /* Monster.swift in Sources */,
